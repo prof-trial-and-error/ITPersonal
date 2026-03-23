@@ -1,0 +1,33 @@
+- title: "IT-Freelancing – Experten auf Projektbasis"
+  text: "Externe IT-Spezialisten für definierte Projekte – mit schnellem Onboarding und flexibler Laufzeit."
+  icon: briefcase
+  checklist:
+    - "Schnelle Verfügbarkeit – erste Profile innerhalb weniger Tage"
+    - "Keine langfristige Bindung – flexibel nach Projektbedarf"
+    - "Zugang zu hochspezialisierten Experten, die intern nicht verfügbar sind"
+    - Wir übernehmen die vertragliche Abwicklung und Compliance-Prüfung
+    - Ideal für kurzfristige Projekte, Sonderprojekte oder Spitzenabdeckung
+  suited_for: "Projektmanagement, Softwareentwicklung, SAP-Einführungen, Cloud-Migrationen"
+
+- title: "Personalvermittlung – IT-Fachkräfte für Festanstellungen"
+  text: "Recruiting und Vermittlung von IT-Fachkräften in Festanstellung – fachlich und kulturell geprüft."
+  icon: users
+  checklist:
+    - "Vorqualifizierte Kandidaten – fachlich und kulturell geprüft"
+    - Gezielte Suche über unser Netzwerk und Active Sourcing
+    - Entlastung Ihrer HR-Abteilung im gesamten Recruiting-Prozess
+    - Beratung bei Marktgehältern und Positionierung der Stelle
+    - Nachbesetzungsgarantie für zusätzliche Sicherheit
+  suited_for: "Schlüsselpositionen, Teamaufbau, strategische IT-Rollen"
+
+- title: "Arbeitnehmerüberlassung – rechtssicher und flexibel"
+  text: "Zeitarbeit im rechtlichen Rahmen des AÜG – volle Flexibilität bei maximaler Rechtssicherheit."
+  icon: shield
+  checklist:
+    - Volle Flexibilität bei der Personalkapazität
+    - Rechtssicherheit durch AÜG-konforme Verträge und Prozesse
+    - Kein Risiko der Scheinselbstständigkeit
+    - "Wir sind der Arbeitgeber – Sie steuern den Einsatz"
+    - Übernahmeoption nach Ablauf der Überlassungsdauer
+    - Ideal für regulierte Branchen mit strengen Compliance-Anforderungen
+  suited_for: "Langfristige Projekte, regulierte Umgebungen, Kapazitätserweiterung"

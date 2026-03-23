@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% include subpage-hero.html %}
+
+{{ content }}
+
+{% unless page.hide_cta %}
+{% include cta-section.html %}
+{% endunless %}

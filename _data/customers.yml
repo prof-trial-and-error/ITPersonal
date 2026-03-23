@@ -1,0 +1,10 @@
+- name: Deutsche Bank
+  logo: assets/svg/logo_DeutscheBank.svg
+- name: HCOB
+  logo: assets/svg/Hamburg_Commercial_Bank_Logo_2019.svg
+- name: Swiss Life
+  logo: assets/svg/logo_SwissLife.svg
+- name: Bechtle
+  logo: assets/svg/Logo_Bechtle.svg
+- name: HELLA
+  logo: assets/svg/logo_Hella.svg

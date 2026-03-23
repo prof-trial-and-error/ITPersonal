@@ -1,380 +1,186 @@
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>IT-Personallösungen für den Mittelstand – rechtssicher und ohne Risiko</title>
-        <meta name="description" content="Wir unterstützen mittelständische Unternehmen in regulierten Branchen bei der Besetzung von IT-Projekten und IT-Positionen – mit Freelancern, Festanstellungen und Arbeitnehmerüberlassung.">
-        <!-- Google Fonts: Plus Jakarta Sans -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="css/theme.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-        <!-- =============================================
-       NAVIGATION
-       ============================================= -->
-        <header class="nav" role="banner">
-            <div class="container nav__inner">
-                <a href="#hero" class="nav__logo" aria-label="Startseite"> <img src="assets/svg/shutterstock_2738364137_opt.svg" alt="Logo" style="height: 32px; width: auto; margin-right: 0.75rem; display: block;"> <span>IT Personal</span> </a>
-                <nav class="nav__links" role="navigation" aria-label="Hauptnavigation">
-                    <a href="ueber-uns.html" class="nav__link">Über uns</a>
-                    <a href="leistungen.html" class="nav__link">Leistungen</a>
-                    <a href="unternehmen.html" class="nav__link">Unternehmen</a>
-                    <a href="kandidaten.html" class="nav__link">Kandidaten</a>
-                    <a href="expertise.html" class="nav__link">Expertise</a>
-                </nav>
-                <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false">
-                    <span class="nav__toggle-bar"></span>
-                    <span class="nav__toggle-bar"></span>
-                    <span class="nav__toggle-bar"></span>
-                </button>
-            </div>
-            <!-- Mobile menu -->
-            <div class="nav__mobile-menu" role="navigation" aria-label="Mobile Navigation">
-                <a href="ueber-uns.html" class="nav__mobile-link">Über uns</a>
-                <a href="leistungen.html" class="nav__mobile-link">Leistungen</a>
-                <a href="unternehmen.html" class="nav__mobile-link">Unternehmen</a>
-                <a href="kandidaten.html" class="nav__mobile-link">Kandidaten</a>
-                <a href="expertise.html" class="nav__mobile-link">Expertise</a>
-            </div>
-        </header>
-        <main>
-            <!-- =============================================
-         SECTION 1: HERO
-         ============================================= -->
-            <section id="hero" class="hero" style="background-color: #f0f7ff; padding: 10rem 0; overflow: hidden; position: relative; color: #1e293b;">
-                <style>@media (max-width: 991px) { #hero { padding: 5rem 0 !important; } #hero .hero-grid {  grid-template-columns: 1fr !important;  text-align: center;  gap: 3rem !important; }  #hero .hero__headline {  font-size: 2.5rem !important; }  #hero .hero__sub {  margin: 0 auto 2rem auto !important; }  #hero .hero__image {  order: -1;  max-width: 80%;  margin: 0 auto; } }</style>
-                <div class="hero-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; max-width: 1200px; margin: 0 auto; padding: 0 1rem; align-items: center;">
-                    <div class="hero__content" style="z-index: 2;">
-                        <h1 class="hero__headline reveal" style="font-size: 3.25rem; line-height: 1.15; font-weight: 800; color: #0f172a; margin-bottom: 1.5rem; letter-spacing: -0.03em;">
-                IT-Personallösungen für den Mittelstand <span style="color: #0ea5e9; font-weight: 600; font-size: 0.7em; display: inline-block; transform: translateY(-3px);">– rechtssicher &amp; ohne Risiko</span> </h1>
-                        <p class="hero__sub reveal reveal-delay-1" style="font-size: 1.15rem; line-height: 1.7; color: #475569; margin-bottom: 2.5rem; font-weight: 400; max-width: 580px;">
-                Wir unterstützen mittelständische Unternehmen in regulierten Branchen bei der Besetzung von IT-Projekten und IT-Positionen – mit Freelancern, Festanstellungen und Arbeitnehmerüberlassung. </p>
-                        <a href="#plan" class="btn btn--primary hero__cta reveal reveal-delay-2" style="display: inline-block; background-color: #0f172a; color: #ffffff; padding: 1rem 2.25rem; font-weight: 600; border-radius: 999px; text-decoration: none; box-shadow: 0 10px 25px -10px rgba(15, 23, 42, 0.4); transition: transform 0.2s ease;">
-                Unverbindliches Erstgespräch jetzt vereinbaren </a>
-                    </div>
-                    <div class="hero__image reveal reveal-delay-3" style="position: relative; z-index: 1; display: flex; justify-content: center;">
-                        <div style="position: absolute; width: 120%; height: 120%; background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, rgba(255,255,255,0) 70%); top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1;"></div>
-                        <img src="assets/svg/shutterstock_1371047360_optimized.svg" alt="IT Team" style="max-width: 120%; height: auto; display: block; filter: drop-shadow(0 20px 30px rgba(14, 165, 233, 0.15)); background-color: rgba(255, 255, 255, 0);">
-                    </div>
-                </div>
-            </section>
-            <!-- =============================================
-         SECTION 2: VALUE STACK
-         ============================================= -->
-            <section id="value-stack" class="value-stack">
-                <div class="value-stack__grid">
-                    <div class="value-stack__item reveal">
-                        <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <polyline points="16 12 12 8 8 12"></polyline>
-                            <line x1="12" y1="16" x2="12" y2="8"></line>
-                        </svg>
-                        <span class="value-stack__text">Schnell besetzt</span>
-                    </div>
-                    <div class="value-stack__item reveal reveal-delay-1">
-                        <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                        <span class="value-stack__text">Rechtlich abgesichert</span>
-                    </div>
-                    <div class="value-stack__item reveal reveal-delay-2">
-                        <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                        </svg>
-                        <span class="value-stack__text">Flexibel und bedarfsgerecht</span>
-                    </div>
-                    <div class="value-stack__item reveal reveal-delay-3">
-                        <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                        </svg>
-                        <span class="value-stack__text">Sicher im regulierten Umfeld</span>
-                    </div>
-                </div>
-            </section>
-            <!-- =============================================
-         SECTION 3: STAKES / THE PROBLEM
-         ============================================= -->
-            <section id="problem" class="stakes">
-                <div class="container">
-                    <div class="stakes__grid">
-                        <!-- Image placeholder -->
-                        <div class="stakes__visual reveal" style="display: flex; justify-content: center; align-items: center; background-color: #ffffff;">
-                            <div style="width: 100%; display: flex; justify-content: center; background-color: transparent;">
-                                <img src="assets/svg/shutterstock_2450673689_optim.svg" alt="IT Fachkräfte Team" style="width: 100%; height: auto; display: block; min-height: 200px; filter: drop-shadow(0 20px 30px rgba(14, 165, 233, 0.15));">
-                            </div>
-                        </div>
-                        <!-- Pain points -->
-                        <div class="stakes__content reveal reveal-delay-1">
-                            <h2 class="stakes__headline">Sie kennen sicher die zentralen Risiken beim IT-Personal:</h2>
-                            <ul class="stakes__list">
-                                <li class="stakes__list-item">
-                                    <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                                        <line x1="9" y1="9" x2="15" y2="15"></line>
-                                    </svg>
-                                    <span>Kritische IT-Rollen bleiben zu lange unbesetzt</span>
-                                </li>
-                                <li class="stakes__list-item">
-                                    <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                                        <line x1="9" y1="9" x2="15" y2="15"></line>
-                                    </svg>
-                                    <span>Rechtliche Unsicherheit bei Freelancern und externen IT-Kräften</span>
-                                </li>
-                                <li class="stakes__list-item">
-                                    <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                                        <line x1="9" y1="9" x2="15" y2="15"></line>
-                                    </svg>
-                                    <span>Unpassende Profile kosten Zeit und Nerven</span>
-                                </li>
-                                <li class="stakes__list-item">
-                                    <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                                        <line x1="9" y1="9" x2="15" y2="15"></line>
-                                    </svg>
-                                    <span>Fehlendes Verständnis für regulatorische Anforderungen</span>
-                                </li>
-                                <li class="stakes__list-item">
-                                    <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                                        <line x1="9" y1="9" x2="15" y2="15"></line>
-                                    </svg>
-                                    <span>Intransparente Prozesse und wechselnde Ansprechpartner</span>
-                                </li>
-                                <li class="stakes__list-item">
-                                    <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                                        <line x1="9" y1="9" x2="15" y2="15"></line>
-                                    </svg>
-                                    <span>Interne IT- und HR-Teams sind dauerhaft überlastet</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- =============================================
-         SECTION 4: SOLUTION / 3 PILLARS
-         ============================================= -->
-            <section id="solution" class="solution">
-                <div class="container">
-                    <div class="solution__grid">
-                        <!-- Pillar 1 -->
-                        <div class="solution__card reveal">
-                            <div class="solution__icon-wrap">
-                                <!-- Feather: target -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                    <circle cx="12" cy="12" r="6"></circle>
-                                    <circle cx="12" cy="12" r="2"></circle>
-                                </svg>
-                            </div>
-                            <h3 class="solution__card-headline">1. Passgenaue IT-Experten</h3>
-                            <p class="solution__card-text">Fachlich geprüfte IT-Spezialisten mit Erfahrung im Mittelstand und in regulierten Branchen – keine Massenprofile, keine Zeitverluste.</p>
-                        </div>
-                        <!-- Pillar 2 -->
-                        <div class="solution__card reveal reveal-delay-1">
-                            <div class="solution__icon-wrap">
-                                <!-- Feather: file-check (shield-check proxy) -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                    <polyline points="14 2 14 8 20 8"></polyline>
-                                    <path d="M9 15l2 2 4-4"></path>
-                                </svg>
-                            </div>
-                            <h3 class="solution__card-headline">2. Rechtssichere Einsatzmodelle</h3>
-                            <p class="solution__card-text">Ob Freelancer, Festanstellung oder ANÜ – immer AÜG-konform, prüfungssicher und abgestimmt auf Ihre Compliance-Vorgaben.</p>
-                        </div>
-                        <!-- Pillar 3 -->
-                        <div class="solution__card reveal reveal-delay-2">
-                            <div class="solution__icon-wrap">
-                                <!-- Feather: settings -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <circle cx="12" cy="12" r="3"></circle>
-                                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-                                </svg>
-                            </div>
-                            <h3 class="solution__card-headline">3. Verlässliche Prozesse</h3>
-                            <p class="solution__card-text">Klare Abläufe, feste Ansprechpartner und transparente Kommunikation – für planbare Besetzungen ohne Reibungsverluste.</p>
-                        </div>
-                    </div>
-                    <div class="solution__cta-wrap reveal">
-                        <a href="#plan" class="btn btn--primary">Unverbindliches Erstgespräch jetzt vereinbaren</a>
-                    </div>
-                </div>
-            </section>
-            <!-- =============================================
-         SECTION 5: GUIDE / EMPATHY & AUTHORITY
-         ============================================= -->
-            <section id="guide" class="guide">
-                <div class="container guide__content">
-                    <div class="guide__empathy reveal">
-                        <h2 class="guide__headline">Wir wissen, wie herausfordernd es ist, IT-Personal zu finden, wenn Zeitdruck, Fachkräftemangel und regulatorische Vorgaben gleichzeitig wirken.</h2>
-                        <p class="guide__sub">Wir bringen Erfahrung mit, auf die Sie sich verlassen können:</p>
-                    </div>
-                    <div class="guide__authority reveal reveal-delay-1">
-                        <ul class="guide__authority-list">
-                            <li class="guide__authority-item">
-                                <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                                <span>Spezialisiert auf IT-Fachkräfte im deutschen Mittelstand</span>
-                            </li>
-                            <li class="guide__authority-item">
-                                <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                                <span>Langjährige Erfahrung in regulierten Branchen wie Finanzwesen, Industrie und öffentlichem Sektor</span>
-                            </li>
-                            <li class="guide__authority-item">
-                                <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                                <span>Erfolgreiche Besetzung von Projekten und Positionen über Freelancer, Festanstellung und ANÜ</span>
-                            </li>
-                            <li class="guide__authority-item">
-                                <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                                <span>AÜG-konforme Prozesse und geprüfte Einsatzmodelle</span>
-                            </li>
-                            <li class="guide__authority-item">
-                                <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                                <span>Feste Ansprechpartner und transparente Abläufe</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Logo farm -->
-                    <div class="guide__logos reveal reveal-delay-2">
-                        <img src="assets/svg/logo_DeutscheBank.svg" alt="Deutsche Bank" class="guide__logo">
-                        <img src="assets/svg/logo_Db-bahn.svg" alt="Deutsche Bahn" class="guide__logo">
-                        <img src="assets/svg/logo_SwissLife.svg" alt="Swiss Life" class="guide__logo">
-                        <img src="assets/svg/Logo_Bechtle.svg" alt="Bechtle" class="guide__logo">
-                        <img src="assets/svg/logo_Hella.svg" alt="HELLA" class="guide__logo">
-                    </div>
-                </div>
-            </section>
-            <!-- =============================================
-         SECTION 6: THE PLAN
-         ============================================= -->
-            <section id="plan" class="plan">
-                <div class="container">
-                    <h2 class="plan__headline reveal">So einfach finden Sie Ihre IT-Fachkraft</h2>
-                    <div class="plan__steps">
-                        <!-- Step 1 -->
-                        <div class="plan__step reveal">
-                            <div class="plan__step-number">1</div>
-                            <div class="plan__step-content">
-                                <h3 class="plan__step-headline">Schritt 1: Anfrage stellen</h3>
-                                <p class="plan__step-text">Beschreiben Sie uns Ihren Bedarf – ob Festanstellung, Freelancer oder Arbeitnehmerüberlassung. Wir melden uns innerhalb von 24 Stunden.</p>
-                            </div>
-                        </div>
-                        <!-- Step 2 -->
-                        <div class="plan__step reveal reveal-delay-1">
-                            <div class="plan__step-number">2</div>
-                            <div class="plan__step-content">
-                                <h3 class="plan__step-headline">Schritt 2: Passgenaue Auswahl erhalten</h3>
-                                <p class="plan__step-text">Ihr fester Ansprechpartner analysiert Ihre Anforderungen und präsentiert Ihnen vorqualifizierte Kandidaten aus unserem Netzwerk.</p>
-                            </div>
-                        </div>
-                        <!-- Step 3 -->
-                        <div class="plan__step reveal reveal-delay-2">
-                            <div class="plan__step-number">3</div>
-                            <div class="plan__step-content">
-                                <h3 class="plan__step-headline">Schritt 3: Erfolgreich besetzen</h3>
-                                <p class="plan__step-text">Sie wählen den passenden Kandidaten. Wir kümmern uns um alle Formalitäten – AÜG-konform und rechtssicher.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Commitments -->
-                    <div class="plan__commitments reveal">
-                        <h3 class="plan__commitments-headline">Unsere Zusagen an Sie:</h3>
-                        <ul class="plan__commitments-list">
-                            <li class="plan__commitments-item">
-                                <svg class="plan__commitments-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                                </svg>
-                                <span>Fester Ansprechpartner während des gesamten Prozesses</span>
-                            </li>
-                            <li class="plan__commitments-item">
-                                <svg class="plan__commitments-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                                </svg>
-                                <span>Transparente Abläufe ohne versteckte Kosten</span>
-                            </li>
-                            <li class="plan__commitments-item">
-                                <svg class="plan__commitments-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                                </svg>
-                                <span>AÜG-konforme und geprüfte Einsatzmodelle</span>
-                            </li>
-                            <li class="plan__commitments-item">
-                                <svg class="plan__commitments-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                                </svg>
-                                <span>Kandidaten mit nachgewiesener Erfahrung in regulierten Branchen</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <!-- =============================================
-         SECTION 7: SALES LETTER
-         ============================================= -->
-            <section id="sales-letter" class="sales-letter">
-                <div class="container">
-                    <div class="sales-letter__content reveal">
-                        <div class="sales-letter__body">
-                            <p><strong>Wir wissen, dass Sie verlässliche IT-Fachkräfte einsetzen möchten, um Ihre Projekte sicher und planbar umzusetzen.</strong></p>
-                            <p>Dafür benötigen Sie qualifizierte Experten, die fachlich passen und zugleich den regulatorischen Anforderungen Ihres Unternehmens gerecht werden. <strong>Das Problem ist</strong>, dass der IT-Fachkräftemangel, unklare rechtliche Rahmenbedingungen und ungeeignete Dienstleister Entscheidungen erschweren und Projekte verzögern – <strong>was verständlicherweise zu Unsicherheit und Frustration führt.</strong></p>
-                            <p><strong>Wir sind überzeugt</strong>, dass Unternehmen im Mittelstand Zugang zu qualifizierten IT-Experten haben sollten, ohne rechtliche oder organisatorische Risiken einzugehen. <strong>Wir verstehen</strong>, wie komplex IT-Besetzungen in regulierten Branchen sind, <strong>weshalb wir uns auf rechtssichere und passgenaue Personallösungen spezialisiert haben.</strong></p>
-                            <p><strong>So arbeiten wir:</strong> Erstens analysieren wir Ihren konkreten Bedarf und die regulatorischen Anforderungen. Zweitens identifizieren wir geeignete IT-Fachkräfte aus unserem geprüften Netzwerk. Drittens setzen wir das passende Modell um – ob Freelancer, Festanstellung oder Arbeitnehmerüberlassung.</p>
-                            <p><strong>Vereinbaren Sie jetzt ein unverbindliches Erstgespräch</strong>, und lassen Sie uns Ihren Personalbedarf gemeinsam klären. <strong>In der Zwischenzeit</strong> stellen wir Ihnen gerne zusätzliche Informationen zu Einsatzmodellen und Compliance zur Verfügung. <strong>So können Sie auf langwierige Suchen, rechtliche Unsicherheiten und unpassende Profile verzichten – und sich stattdessen auf stabile, sichere und erfolgreiche IT-Projekte konzentrieren.</strong></p>
-                        </div>
-                        <div class="sales-letter__cta-wrap">
-                            <a href="#plan" class="btn btn--primary">Unverbindliches Erstgespräch jetzt vereinbaren</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- =============================================
-       FOOTER
-       ============================================= -->
-        <footer class="footer">
-            <div class="container footer__inner">
-                <div class="footer__brand">
-                    <img src="assets/svg/shutterstock_2738364137_opt.svg" alt="Logo" style="height: 32px; width: auto; margin-right: 0.75rem; display: block;">
-                    <span class="footer__name">ITPersonal</span>
-                </div>
-                <span class="footer__copy">&copy; 2026 IT Professionals AG. Alle Rechte vorbehalten.</span>
-                <div class="footer__links">
-                    <a href="impressum.html" class="footer__link">Impressum</a>
-                    <a href="datenschutz.html" class="footer__link">Datenschutz</a>
+---
+layout: home
+title: "IT-Personallösungen für den Mittelstand – rechtssicher und ohne Risiko"
+description: "Wir unterstützen mittelständische Unternehmen in regulierten Branchen bei der Besetzung von IT-Projekten und IT-Positionen – mit Freelancern, Festanstellungen und Arbeitnehmerüberlassung."
+---
+<!-- =============================================
+ SECTION 1: HERO
+ ============================================= -->
+<section id="hero" class="hero" style="background-color: #f0f7ff; padding: 10rem 0; overflow: hidden; position: relative; color: #1e293b;">
+    <style>@media (max-width: 991px) { #hero { padding: 5rem 0 !important; } #hero .hero-grid {  grid-template-columns: 1fr !important;  text-align: center;  gap: 3rem !important; }  #hero .hero__headline {  font-size: 2.5rem !important; }  #hero .hero__sub {  margin: 0 auto 2rem auto !important; }  #hero .hero__image {  order: -1;  max-width: 80%;  margin: 0 auto; } }</style>
+    <div class="hero-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; max-width: 1200px; margin: 0 auto; padding: 0 1rem; align-items: center;">
+        <div class="hero__content" style="z-index: 2;">
+            <h1 class="hero__headline reveal" style="font-size: 3.25rem; line-height: 1.15; font-weight: 800; color: #0f172a; margin-bottom: 1.5rem; letter-spacing: -0.03em;">
+    IT-Personallösungen für den Mittelstand <span style="color: #0ea5e9; font-weight: 600; font-size: 0.7em; display: inline-block; transform: translateY(-3px);">– rechtssicher &amp; ohne Risiko</span> </h1>
+            <p class="hero__sub reveal reveal-delay-1" style="font-size: 1.15rem; line-height: 1.7; color: #475569; margin-bottom: 2.5rem; font-weight: 400; max-width: 580px;">
+    Wir unterstützen mittelständische Unternehmen in regulierten Branchen bei der Besetzung von IT-Projekten und IT-Positionen – mit Freelancern, Festanstellungen und Arbeitnehmerüberlassung. </p>
+            <a href="#plan" class="btn btn--primary hero__cta reveal reveal-delay-2" style="display: inline-block; background-color: #0f172a; color: #ffffff; padding: 1rem 2.25rem; font-weight: 600; border-radius: 999px; text-decoration: none; box-shadow: 0 10px 25px -10px rgba(15, 23, 42, 0.4); transition: transform 0.2s ease;">
+    Unverbindliches Erstgespräch jetzt vereinbaren </a>
+        </div>
+        <div class="hero__image reveal reveal-delay-3" style="position: relative; z-index: 1; display: flex; justify-content: center;">
+            <div style="position: absolute; width: 120%; height: 120%; background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, rgba(255,255,255,0) 70%); top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1;"></div>
+            <img src="{{ '/assets/svg/shutterstock_1371047360_optimized.svg' | relative_url }}" alt="IT Team" style="max-width: 120%; height: auto; display: block; filter: drop-shadow(0 20px 30px rgba(14, 165, 233, 0.15)); background-color: rgba(255, 255, 255, 0);">
+        </div>
+    </div>
+</section>
+<!-- =============================================
+ SECTION 2: VALUE STACK
+ ============================================= -->
+<section id="value-stack" class="value-stack">
+    <div class="value-stack__grid">
+        <div class="value-stack__item reveal">
+            <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="16 12 12 8 8 12"></polyline>
+                <line x1="12" y1="16" x2="12" y2="8"></line>
+            </svg>
+            <span class="value-stack__text">Schnell besetzt</span>
+        </div>
+        <div class="value-stack__item reveal reveal-delay-1">
+            <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span class="value-stack__text">Rechtlich abgesichert</span>
+        </div>
+        <div class="value-stack__item reveal reveal-delay-2">
+            <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+            </svg>
+            <span class="value-stack__text">Flexibel und bedarfsgerecht</span>
+        </div>
+        <div class="value-stack__item reveal reveal-delay-3">
+            <svg class="value-stack__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span class="value-stack__text">Sicher im regulierten Umfeld</span>
+        </div>
+    </div>
+</section>
+<!-- =============================================
+ SECTION 3: STAKES / THE PROBLEM
+ ============================================= -->
+<section id="problem" class="stakes">
+    <div class="container">
+        <div class="stakes__grid">
+            <!-- Image placeholder -->
+            <div class="stakes__visual reveal" style="display: flex; justify-content: center; align-items: center; background-color: #ffffff;">
+                <div style="width: 100%; display: flex; justify-content: center; background-color: transparent;">
+                    <img src="{{ '/assets/svg/shutterstock_2450673689_optim.svg' | relative_url }}" alt="IT Fachkräfte Team" style="width: 100%; height: auto; display: block; min-height: 200px; filter: drop-shadow(0 20px 30px rgba(14, 165, 233, 0.15));">
                 </div>
             </div>
-        </footer>
-        <!-- JavaScript -->
-        <script src="js/main.js"></script>
-    </body>
-</html>
+            <!-- Pain points -->
+            <div class="stakes__content reveal reveal-delay-1">
+                <h2 class="stakes__headline">Sie kennen sicher die zentralen Risiken beim IT-Personal:</h2>
+                <ul class="stakes__list">
+                    {% for point in site.data.pain_points %}
+                    <li class="stakes__list-item">
+                        <svg class="stakes__list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                        <span>{{ point }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =============================================
+ SECTION 4: SOLUTION / 3 PILLARS
+ ============================================= -->
+<section id="solution" class="solution">
+    <div class="container">
+        <div class="solution__grid">
+            {% for pillar in site.data.pillars %}
+            <div class="solution__card reveal{% if forloop.index > 1 %} reveal-delay-{{ forloop.index | minus: 1 }}{% endif %}">
+                <div class="solution__icon-wrap">
+                    {% if pillar.icon == "target" %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                    {% elsif pillar.icon == "file-check" %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><path d="M9 15l2 2 4-4"></path></svg>
+                    {% elsif pillar.icon == "settings" %}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    {% endif %}
+                </div>
+                <h3 class="solution__card-headline">{{ pillar.title }}</h3>
+                <p class="solution__card-text">{{ pillar.text }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="solution__cta-wrap reveal">
+            <a href="#plan" class="btn btn--primary">Unverbindliches Erstgespräch jetzt vereinbaren</a>
+        </div>
+    </div>
+</section>
+<!-- =============================================
+ SECTION 5: GUIDE / EMPATHY & AUTHORITY
+ ============================================= -->
+<section id="guide" class="guide">
+    <div class="container guide__content">
+        <div class="guide__empathy reveal">
+            <h2 class="guide__headline">Wir wissen, wie herausfordernd es ist, IT-Personal zu finden, wenn Zeitdruck, Fachkräftemangel und regulatorische Vorgaben gleichzeitig wirken.</h2>
+            <p class="guide__sub">Wir bringen Erfahrung mit, auf die Sie sich verlassen können:</p>
+        </div>
+        <div class="guide__authority reveal reveal-delay-1">
+            <ul class="guide__authority-list">
+                {% for item in site.data.authority_items.homepage %}
+                <li class="guide__authority-item">
+                    <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>{{ item }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- Logo farm -->
+        {% include logo-farm.html %}
+    </div>
+</section>
+<!-- =============================================
+ SECTION 6: THE PLAN
+ ============================================= -->
+<section id="plan" class="plan">
+    <div class="container">
+        <h2 class="plan__headline reveal">So einfach finden Sie Ihre IT-Fachkraft</h2>
+        <div class="plan__steps">
+            {% for step in site.data.plan_steps %}
+            <div class="plan__step reveal{% if forloop.index > 1 %} reveal-delay-{{ forloop.index | minus: 1 }}{% endif %}">
+                <div class="plan__step-number">{{ step.number }}</div>
+                <div class="plan__step-content">
+                    <h3 class="plan__step-headline">{{ step.title }}</h3>
+                    <p class="plan__step-text">{{ step.text }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <!-- Commitments -->
+        <div class="plan__commitments reveal">
+            <h3 class="plan__commitments-headline">Unsere Zusagen an Sie:</h3>
+            <ul class="plan__commitments-list">
+                {% for commitment in site.data.commitments %}
+                <li class="plan__commitments-item">
+                    <svg class="plan__commitments-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>{{ commitment }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- =============================================
+ SECTION 7: SALES LETTER
+ ============================================= -->
+<section id="sales-letter" class="sales-letter">
+    <div class="container">
+        <div class="sales-letter__content reveal">
+            <div class="sales-letter__body">
+                <p><strong>Wir wissen, dass Sie verlässliche IT-Fachkräfte einsetzen möchten, um Ihre Projekte sicher und planbar umzusetzen.</strong></p>
+                <p>Dafür benötigen Sie qualifizierte Experten, die fachlich passen und zugleich den regulatorischen Anforderungen Ihres Unternehmens gerecht werden. <strong>Das Problem ist</strong>, dass der IT-Fachkräftemangel, unklare rechtliche Rahmenbedingungen und ungeeignete Dienstleister Entscheidungen erschweren und Projekte verzögern – <strong>was verständlicherweise zu Unsicherheit und Frustration führt.</strong></p>
+                <p><strong>Wir sind überzeugt</strong>, dass Unternehmen im Mittelstand Zugang zu qualifizierten IT-Experten haben sollten, ohne rechtliche oder organisatorische Risiken einzugehen. <strong>Wir verstehen</strong>, wie komplex IT-Besetzungen in regulierten Branchen sind, <strong>weshalb wir uns auf rechtssichere und passgenaue Personallösungen spezialisiert haben.</strong></p>
+                <p><strong>So arbeiten wir:</strong> Erstens analysieren wir Ihren konkreten Bedarf und die regulatorischen Anforderungen. Zweitens identifizieren wir geeignete IT-Fachkräfte aus unserem geprüften Netzwerk. Drittens setzen wir das passende Modell um – ob Freelancer, Festanstellung oder Arbeitnehmerüberlassung.</p>
+                <p><strong>Vereinbaren Sie jetzt ein unverbindliches Erstgespräch</strong>, und lassen Sie uns Ihren Personalbedarf gemeinsam klären. <strong>In der Zwischenzeit</strong> stellen wir Ihnen gerne zusätzliche Informationen zu Einsatzmodellen und Compliance zur Verfügung. <strong>So können Sie auf langwierige Suchen, rechtliche Unsicherheiten und unpassende Profile verzichten – und sich stattdessen auf stabile, sichere und erfolgreiche IT-Projekte konzentrieren.</strong></p>
+            </div>
+            <div class="sales-letter__cta-wrap">
+                <a href="#plan" class="btn btn--primary">Unverbindliches Erstgespräch jetzt vereinbaren</a>
+            </div>
+        </div>
+    </div>
+</section>

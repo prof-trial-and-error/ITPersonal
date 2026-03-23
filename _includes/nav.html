@@ -1,0 +1,24 @@
+<header class="nav" role="banner">
+    <div class="container nav__inner">
+        <a href="{% if page.layout == 'home' %}#hero{% else %}{{ '/' | relative_url }}{% endif %}" class="nav__logo" aria-label="Startseite">
+            <img src="{{ '/' | relative_url }}{{ site.logo }}" alt="Logo" style="height: 32px; width: auto; margin-right: 0.75rem; display: block;">
+            <span>IT Personal</span>
+        </a>
+        <nav class="nav__links" role="navigation" aria-label="Hauptnavigation">
+            {% for link in site.data.nav %}
+            <a href="{{ link.url | relative_url }}" class="nav__link">{{ link.label }}</a>
+            {% endfor %}
+        </nav>
+        <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false">
+            <span class="nav__toggle-bar"></span>
+            <span class="nav__toggle-bar"></span>
+            <span class="nav__toggle-bar"></span>
+        </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav__mobile-menu" role="navigation" aria-label="Mobile Navigation">
+        {% for link in site.data.nav %}
+        <a href="{{ link.url | relative_url }}" class="nav__mobile-link">{{ link.label }}</a>
+        {% endfor %}
+    </div>
+</header>

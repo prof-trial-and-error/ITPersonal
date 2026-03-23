@@ -1,0 +1,30 @@
+columns:
+  - IT-Freelancing
+  - Personalvermittlung
+  - ANÜ
+rows:
+  - criteria: Vertragsverhältnis
+    values:
+      - Werkvertrag / Dienstvertrag
+      - Direktanstellung beim Kunden
+      - Arbeitnehmerüberlassung
+  - criteria: Flexibilität
+    values:
+      - Sehr hoch
+      - Mittel
+      - Hoch
+  - criteria: Rechtssicherheit
+    values:
+      - Compliance-Prüfung inklusive
+      - Standardarbeitsvertrag
+      - AÜG-konform
+  - criteria: Besetzungsdauer
+    values:
+      - Wenige Tage
+      - 2–6 Wochen
+      - 1–2 Wochen
+  - criteria: Ideal für
+    values:
+      - Projekte, Spitzenabdeckung
+      - Schlüsselpositionen
+      - Regulierte Umgebungen

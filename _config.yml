@@ -1,0 +1,20 @@
+title: ITPersonal
+description: "IT-Personallösungen für den Mittelstand – rechtssicher und ohne Risiko"
+url: ""
+baseurl: ""
+lang: de
+
+logo: assets/svg/shutterstock_2738364137_opt.svg
+
+permalink: pretty
+
+exclude:
+  - CLAUDE.md
+  - pinegrow.json
+  - march20.md
+  - plan.md
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - .sass-cache

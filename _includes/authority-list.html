@@ -1,0 +1,15 @@
+{% comment %}
+  Usage: {% include authority-list.html items=page.authority_items style="light" max_width="680px" %}
+  style: "light" adds dark text color overrides for use on light backgrounds
+  max_width: optional max-width for the wrapper
+{% endcomment %}
+<div class="guide__authority reveal reveal-delay-1"{% if include.max_width %} style="max-width: {{ include.max_width }};{% if include.center %} margin: 0 auto;{% endif %}"{% endif %}>
+    <ul class="guide__authority-list"{% if include.style == "light" %} style="color: var(--color-text-dark);"{% endif %}>
+        {% for item in include.items %}
+        <li class="guide__authority-item"{% if include.style == "light" %} style="color: var(--color-text-dark);"{% endif %}>
+            <svg class="guide__authority-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>{{ item }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
