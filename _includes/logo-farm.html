@@ -1,5 +1,5 @@
 <div class="guide__logos reveal reveal-delay-2">
     {% for customer in site.data.customers %}
-    <img src="{{ '/' | relative_url }}{{ customer.logo }}" alt="{{ customer.name }}" class="guide__logo">
+    <img src="{{ customer.logo | prepend: '/' | relative_url }}" alt="{{ customer.name }}" class="guide__logo">
     {% endfor %}
 </div>

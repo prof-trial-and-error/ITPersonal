@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container footer__inner">
         <div class="footer__brand">
-            <img src="{{ '/' | relative_url }}{{ site.logo }}" alt="Logo" style="height: 32px; width: auto; margin-right: 0.75rem; display: block;">
+            <img src="{{ site.logo | prepend: '/' | relative_url }}" alt="Logo" style="height: 32px; width: auto; margin-right: 0.75rem; display: block;">
             <span class="footer__name">ITPersonal</span>
         </div>
         <span class="footer__copy">&copy; {{ 'now' | date: '%Y' }} IT Professionals AG. Alle Rechte vorbehalten.</span>

@@ -6,8 +6,6 @@ lang: de
 
 logo: assets/svg/shutterstock_2738364137_opt.svg
 
-permalink: pretty
-
 exclude:
   - CLAUDE.md
   - pinegrow.json
